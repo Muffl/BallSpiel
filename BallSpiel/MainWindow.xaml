@@ -9,7 +9,8 @@
     <Grid>
         <Button x:Name="cmdStartStop" Content="Start/Stop" HorizontalAlignment="Left" Margin="44,67,0,0" VerticalAlignment="Top"/>
         <Label x:Name="lblSpielstandLabel" Content="0 Clicks" HorizontalAlignment="Left" Margin="46,115,0,0" VerticalAlignment="Top"/>
-        <Canvas Margin="125,0,0,0"/>
-
+        <Canvas Margin="125,0,0,0" Name="Spielplatz" Background="Beige">
+            <Ellipse Width="20" Height="20" Fill="Chartreuse" Canvas.Left="100" Canvas.Top="100"/>
+        </Canvas>
     </Grid>
 </Window>
