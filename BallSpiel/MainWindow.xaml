@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="Ballspiel" Height="450" Width="800">
     <Grid>
+        <Button x:Name="cmdStartStop" Content="Start/Stop" HorizontalAlignment="Left" Margin="44,67,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblSpielstandLabel" Content="0 Clicks" HorizontalAlignment="Left" Margin="46,115,0,0" VerticalAlignment="Top"/>
+        <Canvas Margin="125,0,0,0"/>
 
     </Grid>
 </Window>
