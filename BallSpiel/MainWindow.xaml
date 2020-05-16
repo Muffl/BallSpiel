@@ -7,11 +7,10 @@
         mc:Ignorable="d"
         Title="Ballspiel" Height="450" Width="800">
     <Grid>
-        <Button x:Name="cmdStartStop" Content="Start/Stop" HorizontalAlignment="Left" Margin="44,67,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="cmdStartStop" Content="Start/Stop" HorizontalAlignment="Left" Margin="44,67,0,0" VerticalAlignment="Top" Click="cmdStartStop_Click"/>
         <Label x:Name="lblSpielstandLabel" Content="0 Clicks" HorizontalAlignment="Left" Margin="46,115,0,0" VerticalAlignment="Top"/>
         <Canvas Margin="125,0,0,0" Name="Spielplatz" Background="Beige">
-            <Ellipse Width="20" Height="20" Fill="Chartreuse" Canvas.Left="100" Canvas.Top="100"/>
-            <Label x:Name="label" Content="https://www.youtube.com/watch?v=ugji-_yWoRk" Height="46" Canvas.Left="155" Canvas.Top="171" Width="252"/>
+            <Ellipse Name ="Ball" Width="20" Height="20" Fill="Chartreuse" Canvas.Left="100" Canvas.Top="100"/>
         </Canvas>
     </Grid>
 </Window>
