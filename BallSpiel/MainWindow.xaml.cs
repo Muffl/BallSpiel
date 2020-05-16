@@ -21,6 +21,7 @@ namespace BallSpiel
     /// </summary>
     public partial class MainWindow : Window
     {
+        // Variablen
         private readonly DispatcherTimer _animationTimer = new DispatcherTimer();
         private bool gehtNachRechts = true;
         private bool gehtNachUnten = true;
